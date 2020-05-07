@@ -60,5 +60,39 @@ nums = range(68)
 
 
 
+# Write code to create a list of word lengths for the words in original_str using the accumulation pattern and assign the answer to a variable num_words_list. (You should use the len function).
+
+original_str = "The quick brown rhino jumped over the extremely lazy fox"
+original_lst = original_str.split()
+num_words_list = []
+for i in original_lst:
+    num_words_list.append(len(i))
+    
+    
+    
+#Create an empty string and assign it to the variable lett. Then using range, write code such that when your code is run, lett has 7 b’s ("bbbbbbb").
+
+lett = ""
+for i in range(0,7):
+    lett = lett + 'b'
+print(lett)
+
+
+
+#Write a program that uses the turtle module and a for loop to draw something. It doesn’t have to be complicated, but draw something different than we have done in the past. (Hint: if you are drawing something complicated, it could get tedious to watch it draw over and over. Try setting .speed(10) for the turtle to draw fast, or .speed(0) for it to draw super fast with no animation.)
+
+import turtle
+wn = turtle.Screen()
+cursor = turtle.Turtle()
+lst =range(6)
+for i in lst:
+    cursor.forward(80)
+    cursor.left(60)
+
+
+
+
+
+
 
 
