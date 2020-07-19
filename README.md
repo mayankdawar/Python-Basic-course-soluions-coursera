@@ -1,5 +1,5 @@
 # Python-Basic-course-soluions-coursera
-Solutions of all python problems of coursera MOOC python basic by University of Michigan under course Python 3 Prgramming
+Solutions of all python problems of coursera MOOC python basic by University of Michigan under course Python 3 Prgramming, Ia have uploaded pdf with assessment name for MCQ part alone and all other programming portion is in .py files  
 
 Question -> Write code to add ‘horseback riding’ to the third position (i.e., right before volleyball) in the list sports.
 Solution -> gradedWeek4(2)_1.py
